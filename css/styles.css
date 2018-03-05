@@ -1,0 +1,42 @@
+@media screen and (max-width: 400px) {
+  body {background-color: #66ffff}
+}
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  body {background-color: #99ffff}
+}
+@media screen and (min-width: 600px) {
+  body {background-color: #ccffff}
+}
+
+header {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
